@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin-right: 0px;
+            margin-left: 0px
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1{
+            font-style: italic;
+            font-size: 2.8em;
+            text-align: center;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 10px;
+        }
+
+        #assuntos > p{
+            text-decoration: underline;
+        }
+
+        nav{
+            background-color: rgb(108, 108, 108);
+            padding: 3px;
+            text-align: center;
+            box-shadow: 4px 6px 5px rgba(0, 0, 0, 0.327);
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            margin-right: 27px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        nav > a:active{
+            color: black;
+        }
+
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(154, 154, 154);
+            text-align: right;
+        }
+
+        aside > p{
+            font-size: 0.8em;
+            padding: 2px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 6.3px;
+            margin: 0px;
+            font-size: 0.6em;
+            font-weight: 400;
+
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            margin: auto;
+            margin-top: 35px;
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política e Tecnolgia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi atque pariatur nostrum molestias eveniet. Atque, suscipit, reprehenderit dolorum sapiente maxime dolore, dignissimos eaque iusto veniam enim voluptatibus sed est.</p>
+                <aside>
+                    <p>Artigo escrito por Enzo Fenato</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Pedro Levandowski</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
